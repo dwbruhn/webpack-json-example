@@ -1,7 +1,7 @@
 {
   "name": "webpack-json-example",
   "version": "1.0.0",
-  "description": "Minimal example to show webpack choking on line separator character (U+2028)` in JSON",
+  "description": "Minimal example to show json-loader parsing issues with U+2028 and U+2029",
   "main": "index.js",
   "scripts": {
     "build": "webpack ./index.js bundle.js"
