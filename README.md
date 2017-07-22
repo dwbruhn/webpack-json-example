@@ -1,8 +1,8 @@
-# webpack-json-example
+# json-loader parsing issue: U+2028 & U+2029
 
 cf. https://github.com/webpack-contrib/json-loader/issues/50
 
-Webpack's [json-loader dependency](https://github.com/webpack-contrib/json-loader) can't handle [U+2028 LINE SEPARATOR](http://www.fileformat.info/info/unicode/char/2028/index.htm) or [U+2029 PARAGRAPH SEPARATOR](http://www.fileformat.info/info/unicode/char/2029/index.htm)
+Webpack's [json-loader dependency](https://github.com/webpack-contrib/json-loader) can't handle [U+2028 LINE SEPARATOR](http://www.fileformat.info/info/unicode/char/2028/index.htm) or [U+2029 PARAGRAPH SEPARATOR](http://www.fileformat.info/info/unicode/char/2029/index.htm) in JSON file, which are [valid characters in JSON strings](http://timelessrepo.com/json-isnt-a-javascript-subset):
 
 ```bash
 $ npm run build
