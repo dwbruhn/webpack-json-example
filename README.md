@@ -38,4 +38,4 @@ You may need an appropriate loader to handle this file type.
 
 ## Update
 
-[Already fixed](https://github.com/webpack-contrib/json-loader/commit/3b3069fa3f9deb35cc625c6c388e234a240ee312) but not yet published!
+[Already fixed](https://github.com/webpack-contrib/json-loader/commit/3b3069fa3f9deb35cc625c6c388e234a240ee312) and [now published](https://www.npmjs.com/package/json-loader)!
