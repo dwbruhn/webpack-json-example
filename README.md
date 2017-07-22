@@ -35,3 +35,7 @@ You may need an appropriate loader to handle this file type.
 | };
  @ ./index.js 3:13-38
 ```
+
+## Update
+
+[Already fixed](https://github.com/webpack-contrib/json-loader/commit/3b3069fa3f9deb35cc625c6c388e234a240ee312) but not yet published!
